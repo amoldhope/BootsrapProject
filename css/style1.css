@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Flamenco', cursive;
+}
+header{
+    background-image:url('../image/image1.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.20)rgba(0,0,0,0.20));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+.row
+{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.images{
+    height: 650px;
+    width: auto;
+    float: left;
+    margin-top: 8px;
+    position: absolute;
+    left: 35%;
+}
