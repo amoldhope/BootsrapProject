@@ -1,61 +1,78 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>	@artby_abhijeet</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<style>
+		.navbar-brand img {
+			height: 60px;
+			/* put value of image height as your need */
+			float: left;
+		}
+	</style>
 
 </head>
-<body>
-	<header>
-		<div class="container">
-			<div class="row ">
-				<div class="col-4 ">
-						<img src="image/logo1.jpg"class="logo">
-				
-						<ul class="main-nav animated slideInDown"id="checkclass">
-							<li><a href="index.html"></a></li>
-							<li><a href=allsketch.html>All Skatch</a></li>
-							<li><a href=art.html>Price-Chart</a></li>
-							<li><a href=contact.html>Contct-Info</a></li>
-						</ul>
-						<a href="#" class="mobileicon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
-					
-				</div>
 
+<body>
+
+	<header>
+		<!-- navbar start here -->
+		<div class="container-fluid bg-light text-danger">
+			<nav class="navbar navbar-expand-md sticky-top">
+
+				<a class="navbar-brand" href="#"> <img src="/image/logo1.jpg" alt="logo"></a>
+				<button class="navbar-toggler navbar-light	" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+					aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse " id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="sketches.html">All Sketches</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+		
+			</nav>
+			</div>
+		
+
+		<div class="container">
+			<div class="row">
+				<div1 class="col-12">
+					<!-- <h1>Welcome to <span class="colorchange">Art_By_Abhijeet</span>.<br>
+						Sketch Artist</h1> -->
+
+
+					<h1 class="colorchange">welcome to art by abhijeet sketch artist</h1>
+					<!-- <a href="#" class="btn btn-full">click to order</a>
+					<a href="#" class="btn btn-nav">show more</a> -->
+				</div1>
 
 			</div>
-
-
 		</div>
-		<nav>
-			<div class="row clearflix">
-				</div>
-		</nav>
-		<div1 class="main-content-header">
-			<h1>Welcome to <span class="colorchange">Art_By_Abhijeet</span>.<br>
-				 Sketch Artist</h1>
-			<a href="#" class="btn btn-full">click to order</a>
-			<a href="#" class="btn btn-nav">show more</a>
-		</div1>
+
+
 	</header>
-	<script type="text/javascript">
-	function slideshow(){
-		var x=document.getElementById('checkclass');
-		if(x.style.display==="none")
-		{
-			x.style.display="block";
-		}
-		else{
-			x.style.display="block";
-		}
 
-	}
-
-	</script>
 </body>
+
 </html>
